@@ -32,13 +32,13 @@ public class TicTacToe extends JFrame implements ActionListener{
         setResizable(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
-       JOptionPane.showMessageDialog(this,"choose 'x' or 'o'");
-        JButton butt= new JButton("x");
         JOptionPane.showMessageDialog(this,"choose 'x' or 'o'");
+        JButton butt= new JButton("x");
         JButton butt2= new JButton("o");
         butt.addActionListener(this);
         butt2.addActionListener(this);
         add(butt);
+        add(butt2);
         
         
         
